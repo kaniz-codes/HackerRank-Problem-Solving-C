@@ -1,1 +1,13 @@
+def main():
+    n = input("Enter a number: ")
+    digits = list(n)
+    sum = 0
+    for digit in digits:
+        sum += int(digit)
 
+    # Print the result
+    print("Sum of digits:", sum)
+
+# Run the main function
+if __name__ == "__main__":
+    main()
